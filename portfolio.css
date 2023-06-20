@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbars {
+    background-color: #280f3d;
+
+}
+
+.navbars li {
+    color: white;
+}
+
+body {
+    background-color: rgb(221, 242, 243) !important
+}
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+
+} */
+
+.name {
+    display: flex;
+    justify-content: left;
+    color: #b992d4;
+    font-size: 140%;
+    padding: 15px;
+    margin: 4px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    color: black;
+    padding: 2px;
+    margin: 3px;
+    list-style: none;
+    font-size: 110%;
+}
+
+li {
+    padding: 8px;
+    margin: 6px;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+}
+
+.intro {
+    padding: 10px;
+    margin: 8px;
+    color: rgb(8, 49, 54);
+    font-size: larger;
+    width: 100%;
+}
+
+.intro button {
+    padding: 10px;
+    margin: 6px;
+    background-color: rgb(73, 57, 177);
+    color: white;
+    border: none;
+    transition: 200ms;
+    font-size: large;
+    width: 160px;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: rgb(43, 114, 43);
+    scale: 1.05;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.image img {
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.heading1 {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    margin: 12px;
+    color: rgb(2, 46, 2);
+}
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biodata {
+    width: 800px;
+}
+
+.biodata button {
+    padding: 10px;
+    margin: 6px;
+    background-color: rgb(68, 14, 75);
+    color: white;
+    border: none;
+    transition: 200ms;
+    font-size: large;
+    width: 160px;
+    border-radius: 50px;
+}
+
+.biodata button:hover {
+    background-color: rgb(24, 107, 139);
+    scale: 1.05;
+}
+
+
+.image2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.image2 img {
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    color: rgb(2, 46, 2);
+    padding: 16px;
+    margin: 12px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 8px;
+    font-size: large;
+    color: rgb(110, 42, 42);
+
+}
+
+.skills button {
+    padding: 8px;
+    padding: 10px;
+    margin: 6px;
+    background-color: rgb(238, 130, 111);
+    color: white;
+    border: none;
+    transition: 200ms;
+    font-size: large;
+    width: 160px;
+    border-radius: 50px;
+
+}
+
+.skills button:hover {
+    background-color: rgb(61, 95, 84);
+    scale: 1.05;
+}
+
+.edu {
+    text-align: center;
+    color: rgb(2, 46, 2);
+    padding: 16px;
+    margin: 12px;
+
+}
+
+.education {
+    display: flex;
+}
+
+.image3 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.image3 img {
+    position: relative;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.collegename {
+    padding: 15px;
+    margin: 8px;
+    text-align: right;
+    color: rgb(148, 40, 26);
+
+}
+
+.contact {
+    text-align: center;
+    color: rgb(2, 46, 2);
+    padding: 16px;
+    margin: 12px;
+
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    color: #1e0a2e;
+}
+
+.number button {
+
+    padding: 10px;
+    margin: 6px;
+    background-color: rgb(155, 110, 125);
+    color: white;
+    border: none;
+    transition: 200ms;
+    font-size: medium;
+    width: 250px;
+    border-radius: 50px;
+
+}
+
+.number button:hover {
+    background-color: rgb(19, 95, 114);
+    scale: 1.05;
+
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+#footer {
+    background-color: #1e0a2e;
+    color: rgb(236, 236, 52);
+
+}
